@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Menu, X, Scissors } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -46,12 +46,14 @@ const Navigation = () => {
               e.preventDefault()
               scrollToSection('#accueil')
             }}
-            className="flex items-center gap-2 group"
+            className="flex items-center gap-3 group"
           >
-            <div className="w-10 h-10 rounded-full gold-bg flex items-center justify-center">
-              <Scissors className="w-5 h-5 text-barber-900" />
-            </div>
-            <span className="text-xl font-display font-semibold text-white group-hover:text-barber-gold transition-colors">
+            <img 
+              src="/logo.png" 
+              alt="Ilyes Coiffure" 
+              className="h-10 w-auto object-contain"
+            />
+            <span className="text-xl font-display font-semibold text-white group-hover:text-barber-gold transition-colors hidden sm:inline">
               Ilyes Coiffure
             </span>
           </a>

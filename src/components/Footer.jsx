@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, Scissors, Instagram, Facebook } from 'lucide-react'
+import { Phone, MapPin, Clock, Instagram, Facebook } from 'lucide-react'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -10,10 +10,12 @@ const Footer = () => {
         <div className="py-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 rounded-full gold-bg flex items-center justify-center">
-                <Scissors className="w-5 h-5 text-barber-900" />
-              </div>
+            <div className="flex items-center gap-3 mb-6">
+              <img 
+                src="/logo.png" 
+                alt="Ilyes Coiffure" 
+                className="h-10 w-auto object-contain"
+              />
               <span className="text-xl font-display font-semibold text-white">
                 Ilyes Coiffure
               </span>
