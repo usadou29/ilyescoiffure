@@ -38,7 +38,7 @@ const Navigation = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-28">
           {/* Logo */}
           <a
             href="#accueil"
@@ -51,7 +51,7 @@ const Navigation = () => {
             <img 
               src="/logo.png" 
               alt="Ilyes Coiffure" 
-              className="h-10 w-auto object-contain"
+              className="h-20 w-auto object-contain"
             />
             <span className="text-xl font-display font-semibold text-white group-hover:text-barber-gold transition-colors hidden sm:inline">
               Ilyes Coiffure
