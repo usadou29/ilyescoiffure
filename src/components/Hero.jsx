@@ -26,15 +26,6 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
-        {/* Logo */}
-        <div className="mb-6 animate-fade-in">
-          <img 
-            src="/logo.png" 
-            alt="Ilyes Coiffure" 
-            className="h-24 sm:h-32 w-auto mx-auto object-contain drop-shadow-2xl"
-          />
-        </div>
-
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-barber-800/80 border border-barber-gold/30 mb-8 animate-fade-in">
           <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />

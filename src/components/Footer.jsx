@@ -10,12 +10,7 @@ const Footer = () => {
         <div className="py-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-3 mb-6">
-              <img 
-                src="/logo.png" 
-                alt="Ilyes Coiffure" 
-                className="h-10 w-auto object-contain"
-              />
+            <div className="mb-6">
               <span className="text-xl font-display font-semibold text-white">
                 Ilyes Coiffure
               </span>
